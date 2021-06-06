@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+	<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"/>
+        <title>Calculadora</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class=calculadora>
+		<div id="retangulo"></div>
+			<div id="visor">
+				<h2 id="campoResultado"></h2>
+			</div>
+		<button class="numeros" id="btn1" onclick="insert('1')">1</button>
+		<button class="numeros" id="btn2" onclick="insert('2')">2</button>
+		<button class="numeros" id="btn3" onclick="insert('3')">3</button>
+		<button class="numeros" id="btn4" onclick="insert('4')">4</button>
+		<button class="numeros" id="btn5" onclick="insert('5')">5</button>
+		<button class="numeros" id="btn6" onclick="insert('6')">6</button>
+		<button class="numeros" id="btn7" onclick="insert('7')">7</button>
+		<button class="numeros" id="btn8" onclick="insert('8')">8</button>
+		<button class="numeros" id="btn9" onclick="insert('9')">9</button>
+		<button class="numeros" id="btn0" onclick="insert('0')">0</button>
+		<button id="btnC" onclick="clean()">C</button>
+		<button id="btnVirgula" onclick="virgula()">,</button>
+		<button id="btnSoma" onclick="operator('+')">+</button>
+		<button id="btnSubtracao" onclick="operator('-')">-</button>
+		<button id="btnDivisao" onclick="operator('/')">÷</button>
+		<button id="btnMultiplicacao" onclick="operator('*')">x</button>
+		<button id="btnBackSpace" onclick="backSpace()"><</button>
+		<button id="btnEnter" onclick="calc()">
+			E
+			N
+			T
+			E
+			R</button>	
+		</div>
+        <script src="script.js"></script>
+	</body>
+</html>

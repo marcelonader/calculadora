@@ -1,0 +1,567 @@
+
+body{
+	background-image: url("https://www.youtz.com.br/wp-content/uploads/2019/10/YOUTZ-MATEMATICA-ENEM.jpg");
+	background-size: 100%;
+
+		
+
+}
+
+#retangulo{
+	
+position: absolute;
+width: 409px;
+height: 399px;
+left: 515px;
+top: 214px;
+
+background: #F7F7F7;
+opacity: 0.7;
+border: 4px solid #EFEFEF;
+box-sizing: border-box;
+box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+
+#visor{
+
+position: absolute;
+max-width: 50ch;
+overflow: hidden;
+white-space: nowrap;
+width: 358px;
+height: 60px;
+left: 541px;
+top: 247px;
+text-align: right;
+border: 3px solid #020202;
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	
+background: #FFFFFF;
+}
+
+#btn1{
+position: absolute;
+width: 72px;
+height: 59px;
+left: 541px;
+top: 323px;
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0) 100%), #131515;
+mix-blend-mode: darken;
+border: 3px solid rgba(97, 52, 52, 0.45);
+box-sizing: border-box;
+box-shadow: inset -10px -10px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+cursor: pointer;
+	
+
+	font-family: 'Press Start 2P', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+color: rgba(255, 255, 255, 1);
+border: 1px solid #000000;
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+
+	
+	
+}
+
+#btn2{
+	position: absolute;
+width: 73px;
+height: 59px;
+left: 623px;
+top: 323px;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0) 100%), #131515;
+mix-blend-mode: darken;
+border: 3px solid rgba(97, 52, 52, 0.45);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+cursor: pointer;
+	font-family: 'Press Start 2P', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+color: rgba(255, 255, 255, 1);
+border: 1px solid #000000;
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+	
+}
+#btn3{
+	position: absolute;
+width: 72px;
+height: 59px;
+left: 706px;
+top: 323px;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0) 100%), #131515;
+mix-blend-mode: darken;
+border: 3px solid rgba(97, 52, 52, 0.45);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+cursor: pointer;	
+	font-family: 'Press Start 2P', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+color: rgba(255, 255, 255, 1);
+border: 1px solid #000000;
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+}
+#btn4{
+	position: absolute;
+width: 72px;
+height: 59px;
+left: 541px;
+top: 392px;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0) 100%), #131515;
+mix-blend-mode: darken;
+border: 3px solid rgba(97, 52, 52, 0.45);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+cursor: pointer;	
+	font-family: 'Press Start 2P', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+color: rgba(255, 255, 255, 1);
+border: 1px solid #000000;
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+	
+}
+#btn5{
+	position: absolute;
+width: 73px;
+height: 59px;
+left: 623px;
+top: 392px;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0) 100%), #131515;
+mix-blend-mode: darken;
+border: 3px solid rgba(97, 52, 52, 0.45);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+cursor: pointer;	
+	font-family: 'Press Start 2P', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+color: rgba(255, 255, 255, 1);
+border: 1px solid #000000;
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+}
+
+#btn6{
+
+	position: absolute;
+width: 72px;
+height: 59px;
+left: 706px;
+top: 392px;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0) 100%), #131515;
+mix-blend-mode: darken;
+border: 3px solid rgba(97, 52, 52, 0.45);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+cursor: pointer;	
+	font-family: 'Press Start 2P', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+color: rgba(255, 255, 255, 1);
+border: 1px solid #000000;
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+}
+
+#btn7{
+	position: absolute;
+width: 72px;
+height: 59px;
+left: 541px;
+top: 461px;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0) 100%), #131515;
+mix-blend-mode: darken;
+border: 3px solid rgba(97, 52, 52, 0.45);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+cursor: pointer;	
+	font-family: 'Press Start 2P', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+color: rgba(255, 255, 255, 1);
+border: 1px solid #000000;
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+}
+#btn8{
+	position: absolute;
+width: 73px;
+height: 59px;
+left: 623px;
+top: 461px;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0) 100%), #131515;
+mix-blend-mode: darken;
+border: 3px solid rgba(97, 52, 52, 0.45);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+cursor: pointer;	
+	font-family: 'Press Start 2P', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+color: rgba(255, 255, 255, 1);
+border: 1px solid #000000;
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+	
+}
+	
+#btn9{
+	position: absolute;
+width: 72px;
+height: 59px;
+left: 706px;
+top: 461px;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0) 100%), #131515;
+mix-blend-mode: darken;
+border: 3px solid rgba(97, 52, 52, 0.45);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+cursor: pointer;	
+	font-family: 'Press Start 2P', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+color: rgba(255, 255, 255, 1);
+border: 1px solid #000000;
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+}
+#btn0{
+	
+position: absolute;
+width: 73px;
+height: 59px;
+left: 623px;
+top: 530px;
+
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0) 100%), #131515;
+mix-blend-mode: darken;
+border: 3px solid rgba(97, 52, 52, 0.45);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+cursor: pointer;	
+	
+	
+font-family: 'Press Start 2P', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+color: rgba(255, 255, 255, 1);
+border: 1px solid #000000;
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+}
+
+
+#btnC{
+	position: absolute;
+width: 72px;
+height: 59px;
+left: 541px;
+top: 530px;
+
+background: rgba(1, 140, 184, 0.5);
+mix-blend-mode: darken;
+border: 3px solid rgba(97, 52, 52, 0.45);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+cursor: pointer;	
+font-family: 'Press Start 2P', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+
+color: #000000;
+
+	
+}
+#btnVirgula{
+	position: absolute;
+width: 72px;
+height: 59px;
+left: 706px;
+top: 530px;
+
+background: rgba(1, 140, 184, 0.5);
+mix-blend-mode: darken;
+border: 3px solid rgba(97, 52, 52, 0.45);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+cursor: pointer;	
+font-family: 'Press Start 2P', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+
+color: #000000;
+	
+}
+#btnSoma{
+	position: absolute;
+width: 45px;
+height: 59px;
+left: 788px;
+top: 323px;
+
+background: rgba(65, 164, 255, 0.49);
+mix-blend-mode: darken;
+border: 3px solid rgba(97, 52, 52, 0.45);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+cursor: pointer;
+	font-family: 'Press Start 2P', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #000000;
+	
+}
+#btnSubtracao{
+	
+	position: absolute;
+width: 45px;
+height: 59px;
+left: 788px;
+top: 392px;
+
+background: rgba(65, 164, 255, 0.49);
+mix-blend-mode: darken;
+border: 3px solid rgba(97, 52, 52, 0.45);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+cursor: pointer;	
+font-family: 'Press Start 2P', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #000000;
+}
+#btnDivisao{
+	position: absolute;
+width: 45px;
+height: 59px;
+left: 788px;
+top: 530px;
+
+background: rgba(65, 164, 255, 0.49);
+mix-blend-mode: darken;
+border: 3px solid rgba(97, 52, 52, 0.45);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+cursor: pointer;	
+font-family: 'Press Start 2P', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #000000;
+}
+#btnMultiplicacao{
+	position: absolute;
+width: 45px;
+height: 59px;
+left: 788px;
+top: 461px;
+
+background: rgba(65, 164, 255, 0.49);
+mix-blend-mode: darken;
+border: 3px solid rgba(97, 52, 52, 0.45);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+cursor: pointer;	
+font-family: 'Press Start 2P', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #000000;
+}
+#btnBackSpace{
+	position: absolute;
+width: 56px;
+height: 81px;
+left: 843px;
+top: 322px;
+
+background: rgba(65, 164, 255, 0.49);
+mix-blend-mode: darken;
+border: 3px solid rgba(97, 52, 52, 0.45);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+cursor: pointer;	
+font-family: 'Press Start 2P', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #000000;
+}
+#btnEnter{
+	position: absolute;
+width: 56px;
+height: 177px;
+left: 843px;
+top: 412px;
+
+background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFCA41;
+mix-blend-mode: darken;
+border: 3px solid rgba(97, 52, 52, 0.45);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+cursor: pointer;	
+font-family: 'Press Start 2P', cursive;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+
+color: #000000;
+
+border: 1px solid rgba(245, 244, 244, 0.83);
+text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+#btn1:hover{
+	background-color: rgba(54, 82, 78, 1)
+}
+
+
+
+#btn2:hover{
+	background-color: rgba(54, 82, 78, 1)
+}
+
+#btn3:hover{
+	background-color: rgba(54, 82, 78, 1)
+}
+
+#btn4:hover{
+	background-color: rgba(54, 82, 78, 1)
+}
+
+
+#btn5:hover{
+	background-color: rgba(54, 82, 78, 1)
+}
+
+#btn6:hover{
+	background-color: rgba(54, 82, 78, 1)
+}
+
+#btn7:hover{
+	background-color: rgba(54, 82, 78, 1)
+}
+
+#btn8:hover{
+	background-color: rgba(54, 82, 78, 1)
+}
+
+#btn9:hover{
+	background-color: rgba(54, 82, 78, 1)
+}
+
+#btn0:hover{
+	background-color: rgba(54, 82, 78, 1)
+}
+
+
+
+#btn1:active{
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0) 100%), #131515;
+}
+
+
+
+#btn2:active{
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0) 100%), #131515;
+}
+
+#btn3:active{
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0) 100%), #131515;
+}
+
+#btn4:active{
+ackground: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0) 100%), #131515;
+}
+
+
+#btn5:active{
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0) 100%), #131515;
+}
+#btn6:active{
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0) 100%), #131515;
+}
+#btn7:active{
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0) 100%), #131515;
+}
+#btn8:active{
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0) 100%), #131515;
+}
+#btn9:active{
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0) 100%), #131515;
+}
+#btn0:active{
+background: linear-gradient(180deg, rgba(255, 255, 255, 0.49) 0%, rgba(255, 255, 255, 0) 100%), #131515;
+}
